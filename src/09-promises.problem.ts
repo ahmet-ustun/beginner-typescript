@@ -15,6 +15,5 @@ export const fetchLukeSkywalker = async () => {
   ).then((res) => {
     return res.json();
   });
-
   return data;
 };
